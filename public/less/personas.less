@@ -1,70 +1,62 @@
-/*!
- * Personas e[ad]
- * Basado en Twitter Bootstrap
- *
- * Copyright 2012 Twitter, Inc
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Designed and built with all the love in the world @twitter by @mdo and @fat.
- */
+/* 
+
+	e[ad] - PYXIS 
+	Experiencia Global de la Organización
+	Taller de Investigaciones Gráficas 2012 - *
 
 
-// Core variables and mixins
-@import "variables.less"; // Modify this for custom colors, font-sizes, etc
-@import "mixins.less";
+*/
 
-// CSS Reset
-@import "reset.less";
+@ruta-stampa: 			'../../bower_components/stampa/less/';
+@ruta-pyxis:			'../../bower_components/pyxis/less/';
+@ruta-tipografias: 		'../fonts/';
+@ruta-imagenes:  		'../images/';
 
-// Grid system and page structure
-@import "scaffolding.less";
-@import "grid.less";
-@import "layouts.less";
+// Ensamblador
 
-// Base CSS
-@import "type.less";
-@import "code.less";
-@import "forms.less";
-@import "tables.less";
+@import '@{ruta-pyxis}reset.less';					// volver a no saber, redefinir el blanco
+@import '@{ruta-pyxis}tipografias-web.less';		// las familias tipográficas de base
+@import '@{ruta-pyxis}variables.less';				// los nombres de las cifras 
+@import '@{ruta-pyxis}funciones.less';				// los nombres de los algoritmos
 
-// Components: common
-//@import "sprites.less";
-@import "../font-awesome/font-awesome.less";
-@import "../font-awesome/font-awesome-ie7.less";
-@import "dropdowns.less";
-@import "wells.less";
-@import "component-animations.less";
-@import "close.less";
 
-// Components: Buttons & Alerts
-@import "buttons.less";
-@import "button-groups.less";
-@import "alerts.less"; // Note: alerts share common CSS with buttons and thus have styles in buttons.less
+// Nav Dividers
 
-// Components: Nav
-@import "navs.less";
-@import "navbar.less";
-@import "breadcrumbs.less";
-@import "pagination.less";
-@import "pager.less";
+@import '@{ruta-pyxis}navs.less';
+@import '@{ruta-pyxis}nav-divider.less';
+@import '@{ruta-pyxis}nav-vertical-align.less';
 
-// Components: Popovers
-@import "modals.less";
-@import "tooltip.less";
-@import "popovers.less";
 
-// Components: Misc
-@import "thumbnails.less";
-@import "media.less";
-@import "labels-badges.less";
-@import "progress-bars.less";
-@import "accordion.less";
-@import "carousel.less";
-@import "hero-unit.less";
+// Grilla y Estructura
 
-// Responsive
-@import "responsive.less";
+@import '@{ruta-pyxis}grilla-variables.less';
+@import '@{ruta-pyxis}grilla-medidas.less';
+@import '@{ruta-pyxis}grilla-columnas.less';
+@import '@{ruta-pyxis}grilla.less';
+@import '@{ruta-pyxis}grilla-utilidades.less';
 
-// Utility classes
-@import "utilities.less"; // Has to be last to override when necessary
+// Elementos
+
+@import '@{ruta-pyxis}pagina.less';
+@import '@{ruta-pyxis}auxiliares.less';				// dones comunes
+@import '@{ruta-pyxis}tipografia.less';				// valores tipográficos
+@import '@{ruta-pyxis}interaccion.less';			// elementos de diálogo y uso
+@import '@{ruta-pyxis}tablas.less';					// tablas
+@import '@{ruta-pyxis}layout.less';					// estilos para bloques
+
+
+// Javascript
+
+@import '@{ruta-pyxis}collapse.less';				// cm
+@import '@{ruta-pyxis}modals.less';					// Modales
+@import '@{ruta-pyxis}tooltip.less';				// Tooltip
+@import '@{ruta-pyxis}popovers.less';				// Popover
+@import '@{ruta-pyxis}dropdowns.less';				// Dropdowns
+@import '@{ruta-pyxis}carousel.less';				// Carousel
+@import '@{ruta-pyxis}affix.less';					// Affix
+
+
+// Íconos
+
+@import '@{ruta-stampa}/stampa.less';
+

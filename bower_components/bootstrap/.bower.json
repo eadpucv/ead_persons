@@ -1,0 +1,13 @@
+{
+  "name": "bootstrap",
+  "_cacheHeaders": {
+    "ETag": "\"fce68c2a19930c1803d29b92b97de553\"",
+    "Content-Length": "86011",
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "_release": "e-tag:fce68c2a1",
+  "main": "index",
+  "_source": "https://github.com/twbs/bootstrap/",
+  "_target": "*",
+  "_originalSource": "https://github.com/twbs/bootstrap/"
+}

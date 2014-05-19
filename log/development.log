@@ -14613,3 +14613,832 @@ DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>
   [1m[36mCACHE (0.0ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE (usuario = 'hspencer') LIMIT 1[0m
 Rendered usuarios/edit.html.erb within layouts/application (34.2ms)
 Completed 200 OK in 49ms (Views: 39.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 16:32:33 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at Mon May 19 16:32:33 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at Mon May 19 16:32:33 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at Mon May 19 16:32:33 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/tablesort.js" for 127.0.0.1 at Mon May 19 16:32:33 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/tablesort.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/application.js" for 127.0.0.1 at Mon May 19 16:32:33 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/application.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/bootstrap-dropdown.js" for 127.0.0.1 at Mon May 19 16:32:33 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-dropdown.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/bootstrap-collapse.js" for 127.0.0.1 at Mon May 19 16:32:33 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-collapse.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/application.js" for 127.0.0.1 at Mon May 19 16:32:34 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/application.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/bootstrap-dropdown.js" for 127.0.0.1 at Mon May 19 16:32:34 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-dropdown.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/bootstrap-collapse.js" for 127.0.0.1 at Mon May 19 16:32:34 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-collapse.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/personas/usuarios/signup" for 127.0.0.1 at Mon May 19 16:32:37 -0400 2014
+  Processing by UsuariosController#signup as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_usuarios_signup_html_erb___1028637770_2248465580_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:1)
+DEPRECATION WARNING: Using form_for(:name, @resource) is deprecated. Please use form_for(@resource, :as => :name) instead. (called from _app_views_usuarios_signup_html_erb___1028637770_2248465580_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:8)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_usuarios_signup_html_erb___1028637770_2248465580_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:8)
+Rendered usuarios/signup.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 60ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at Mon May 19 16:32:37 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at Mon May 19 16:32:37 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at Mon May 19 16:32:37 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/tablesort.js" for 127.0.0.1 at Mon May 19 16:32:37 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/tablesort.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/application.js" for 127.0.0.1 at Mon May 19 16:32:37 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/application.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/bootstrap-dropdown.js" for 127.0.0.1 at Mon May 19 16:32:37 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-dropdown.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/bootstrap-collapse.js" for 127.0.0.1 at Mon May 19 16:32:38 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-collapse.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/personas/usuarios/favicon.ico" for 127.0.0.1 at Mon May 19 16:32:38 -0400 2014
+
+ActionController::RoutingError (No route matches "/personas/usuarios/favicon.ico"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at Mon May 19 16:32:38 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at Mon May 19 16:32:38 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/tablesort.js" for 127.0.0.1 at Mon May 19 16:32:38 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/tablesort.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/application.js" for 127.0.0.1 at Mon May 19 16:32:38 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/application.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/bootstrap-dropdown.js" for 127.0.0.1 at Mon May 19 16:32:38 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-dropdown.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/bootstrap-collapse.js" for 127.0.0.1 at Mon May 19 16:32:38 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-collapse.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/personas/usuarios/list" for 127.0.0.1 at Mon May 19 16:32:44 -0400 2014
+  Processing by UsuariosController#list as HTML
+Redirected to http://190.208.62.202:443/cas/login?service=http%3A%2F%2F0.0.0.0%3A3000%2Fpersonas%2Fusuarios%2Flist
+Completed 302 Found in 2ms
+
+
+Started GET "/personas/usuarios/signup" for 127.0.0.1 at Mon May 19 16:43:54 -0400 2014
+  Processing by UsuariosController#signup as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_usuarios_signup_html_erb___1028637770_2245355980_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:1)
+DEPRECATION WARNING: Using form_for(:name, @resource) is deprecated. Please use form_for(@resource, :as => :name) instead. (called from _app_views_usuarios_signup_html_erb___1028637770_2245355980_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:8)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_usuarios_signup_html_erb___1028637770_2245355980_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:8)
+Rendered usuarios/signup.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 50ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/personas-ead.css" for 127.0.0.1 at Mon May 19 16:43:54 -0400 2014
+
+ActionController::RoutingError (No route matches "/stylesheets/personas-ead.css"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at Mon May 19 16:43:54 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at Mon May 19 16:43:54 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at Mon May 19 16:43:54 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/tablesort.js" for 127.0.0.1 at Mon May 19 16:43:55 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/tablesort.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/application.js" for 127.0.0.1 at Mon May 19 16:43:55 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/application.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/bootstrap-dropdown.js" for 127.0.0.1 at Mon May 19 16:43:55 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-dropdown.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/bootstrap-collapse.js" for 127.0.0.1 at Mon May 19 16:43:55 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-collapse.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at Mon May 19 16:43:55 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/tablesort.js" for 127.0.0.1 at Mon May 19 16:43:55 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/tablesort.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/application.js" for 127.0.0.1 at Mon May 19 16:43:55 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/application.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/bootstrap-dropdown.js" for 127.0.0.1 at Mon May 19 16:43:55 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-dropdown.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/bootstrap-collapse.js" for 127.0.0.1 at Mon May 19 16:43:55 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-collapse.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/personas/usuarios/list" for 127.0.0.1 at Mon May 19 16:44:01 -0400 2014
+  Processing by UsuariosController#list as HTML
+Redirected to http://190.208.62.202:443/cas/login?service=http%3A%2F%2F0.0.0.0%3A3000%2Fpersonas%2Fusuarios%2Flist
+Completed 302 Found in 1ms
+
+
+Started GET "/personas/usuarios/signup" for 127.0.0.1 at Mon May 19 16:45:45 -0400 2014
+  Processing by UsuariosController#signup as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_usuarios_signup_html_erb___1028637770_2244281640_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:1)
+DEPRECATION WARNING: Using form_for(:name, @resource) is deprecated. Please use form_for(@resource, :as => :name) instead. (called from _app_views_usuarios_signup_html_erb___1028637770_2244281640_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:8)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_usuarios_signup_html_erb___1028637770_2244281640_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:8)
+Rendered usuarios/signup.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 50ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/personas-ead.css" for 127.0.0.1 at Mon May 19 16:45:45 -0400 2014
+
+ActionController::RoutingError (No route matches "/stylesheets/personas-ead.css"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at Mon May 19 16:45:45 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at Mon May 19 16:45:45 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at Mon May 19 16:45:45 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/tablesort.js" for 127.0.0.1 at Mon May 19 16:45:45 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/tablesort.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/application.js" for 127.0.0.1 at Mon May 19 16:45:45 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/application.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/bootstrap-dropdown.js" for 127.0.0.1 at Mon May 19 16:45:45 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-dropdown.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/bootstrap-collapse.js" for 127.0.0.1 at Mon May 19 16:45:45 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-collapse.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/personas/usuarios/recuperacionDatos" for 127.0.0.1 at Mon May 19 16:45:59 -0400 2014
+  Processing by UsuariosController#recuperacionDatos as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_usuarios_recuperacion_atos_html_erb___21542444_2244947440_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/recuperacionDatos.html.erb:9)
+Rendered usuarios/recuperacionDatos.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/personas-ead.css" for 127.0.0.1 at Mon May 19 16:45:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/stylesheets/personas-ead.css"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at Mon May 19 16:45:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at Mon May 19 16:45:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/application.js" for 127.0.0.1 at Mon May 19 16:45:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/application.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/bootstrap-dropdown.js" for 127.0.0.1 at Mon May 19 16:45:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-dropdown.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (55.6ms)
+
+
+Started GET "/javascripts/tablesort.js" for 127.0.0.1 at Mon May 19 16:45:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/tablesort.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at Mon May 19 16:45:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/bootstrap-collapse.js" for 127.0.0.1 at Mon May 19 16:45:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-collapse.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at Mon May 19 16:45:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/tablesort.js" for 127.0.0.1 at Mon May 19 16:45:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/tablesort.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/application.js" for 127.0.0.1 at Mon May 19 16:45:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/application.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/bootstrap-dropdown.js" for 127.0.0.1 at Mon May 19 16:45:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-dropdown.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/bootstrap-collapse.js" for 127.0.0.1 at Mon May 19 16:45:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-collapse.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/personas/usuarios/recuperacionDatos" for 127.0.0.1 at Mon May 19 16:46:55 -0400 2014
+  Processing by UsuariosController#recuperacionDatos as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_usuarios_recuperacion_atos_html_erb___21542444_2245023400_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/recuperacionDatos.html.erb:9)
+Rendered usuarios/recuperacionDatos.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at Mon May 19 16:46:55 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at Mon May 19 16:46:55 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at Mon May 19 16:46:55 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/tablesort.js" for 127.0.0.1 at Mon May 19 16:46:56 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/tablesort.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/application.js" for 127.0.0.1 at Mon May 19 16:46:56 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/application.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/bootstrap-dropdown.js" for 127.0.0.1 at Mon May 19 16:46:56 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-dropdown.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/bootstrap-collapse.js" for 127.0.0.1 at Mon May 19 16:46:56 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-collapse.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images//ruido-gris-blanco.png" for 127.0.0.1 at Mon May 19 16:46:56 -0400 2014
+
+ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 16:47:53 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 9ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at Mon May 19 16:47:53 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at Mon May 19 16:47:53 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at Mon May 19 16:47:53 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/tablesort.js" for 127.0.0.1 at Mon May 19 16:47:53 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/tablesort.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/application.js" for 127.0.0.1 at Mon May 19 16:47:53 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/application.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/bootstrap-dropdown.js" for 127.0.0.1 at Mon May 19 16:47:53 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-dropdown.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/bootstrap-collapse.js" for 127.0.0.1 at Mon May 19 16:47:53 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-collapse.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images//ruido-gris-blanco.png" for 127.0.0.1 at Mon May 19 16:47:53 -0400 2014
+
+ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 16:49:59 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at Mon May 19 16:49:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at Mon May 19 16:49:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at Mon May 19 16:49:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/tablesort.js" for 127.0.0.1 at Mon May 19 16:49:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/tablesort.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/application.js" for 127.0.0.1 at Mon May 19 16:49:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/application.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/bootstrap-dropdown.js" for 127.0.0.1 at Mon May 19 16:49:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-dropdown.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/bootstrap-collapse.js" for 127.0.0.1 at Mon May 19 16:49:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-collapse.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images//ruido-gris-blanco.png" for 127.0.0.1 at Mon May 19 16:49:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 16:50:00 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at Mon May 19 16:50:00 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at Mon May 19 16:50:00 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/tablesort.js" for 127.0.0.1 at Mon May 19 16:50:00 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/tablesort.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/application.js" for 127.0.0.1 at Mon May 19 16:50:00 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/application.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at Mon May 19 16:50:00 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/bootstrap-dropdown.js" for 127.0.0.1 at Mon May 19 16:50:00 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-dropdown.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/bootstrap-collapse.js" for 127.0.0.1 at Mon May 19 16:50:00 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-collapse.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/tablesort.js" for 127.0.0.1 at Mon May 19 16:50:01 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/tablesort.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/application.js" for 127.0.0.1 at Mon May 19 16:50:01 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/application.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/bootstrap-dropdown.js" for 127.0.0.1 at Mon May 19 16:50:01 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-dropdown.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/bootstrap-collapse.js" for 127.0.0.1 at Mon May 19 16:50:01 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-collapse.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images//ruido-gris-blanco.png" for 127.0.0.1 at Mon May 19 16:50:01 -0400 2014
+
+ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
