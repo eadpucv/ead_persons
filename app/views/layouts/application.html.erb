@@ -7,15 +7,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="favicon.ico">
 	<title>Personas e[ad]</title>
-	
 	<%= stylesheet_link_tag    "personas"  %>
 
+	<%= javascript_include_tag(:defaults) %>
+	<%= javascript_include_tag "tablesort" %>	
 	<%= javascript_include_tag "jquery.min" %>
 	<%= javascript_include_tag "bootstrap.min" %>
 
 </head>
 
 <body>
+
 
 
 	<div class="navbar">
@@ -35,12 +37,32 @@
 					<% if session[:cas_user] %>
 					<% @u = Usuario.find(:first, :conditions =>["usuario = ?", session[:cas_user]]) %>
 					<% if @u.admin == "si" %>					
+
+<div class="navbar">
+    <div class="navbar-inner">
+    	<div class="container">
+
+    		 <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</a>
+
+			<a class="brand" href="#">Personas e<span class="red">[</span>ad<span class="red">]</span></a>
+			
+			<div class="nav-collapse collapse">
+				<% if session[:cas_user] %>
+				<% @u = Usuario.find(:first, :conditions =>["usuario = ?", session[:cas_user]]) %>
+				<% if @u.admin == "si" %>					
+
 					<ul class="nav">
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Administración</a>
 							<b class="caret"></b>
 							<ul class="dropdown-menu">
 								<li <% if action_name=="list" %> class="active" <% end %> >
+
 									<a class="search" href="/usuarios/list/0">Buscar</a>
 								</li>
 
@@ -54,10 +76,26 @@
 
 								<li <% if action_name=="maillist" %> class="active" <% end %>>
 									<a class="filter" href="/usuarios/maillist">Filtrar</a>
+
+									<a class="search" href="/admin/list">Buscar</a>
+								</li>
+						
+								<li <% if action_name=="signup" %> class="active" <% end %>>
+									<a class="add" href="/user/signup">Nuevo Usuario</a>
+								</li>
+						
+								<li <% if action_name=="blockedUsers" %> class="active" <% end %>>
+									<a class="block" href="/admin/blockedUsers">Bloqueados</a>
+								</li>
+						
+								<li <% if action_name=="maillist" %> class="active" <% end %>>
+									<a class="filter" href="/admin/maillist">Filtrar</a>
+
 								</li>
 							</ul>
 						</li>
 					</ul>
+
 					<% end %>
 					
 					<ul class="nav pull-right">
@@ -83,9 +121,34 @@
 						<% end %>
 					</ul>
 				</div>
+=======
+				<% end %>
+					
+				<ul class="nav pull-right">
+					<li class="dropdown pull-right">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i> Cuenta</a>
+						<b class="caret"></b>
+						<ul class="dropdown-menu">
+							<li><a class="edit" href="/user/edit/<%= @u.id %>">Editar Datos</a></li>
+							<li><a class="logout" href="/sessions/logout">LogOut</a></li>
+						</ul>
+					</li>
+					
+					<% else %>
+						<ul class="nav pull-right">
+							<% if session[:cas_user].blank? %>
+								<li><%= link_to "Registrarse", :controller => "user", :action => "signup" %></li>
+								<li><%= link_to "Ingresar", :controller => "admin", :action => "list" %></li>
+								<li><%= link_to "Recuperar Contraseña", :controller => "user", :action => "recuperacionDatos" %></li>
+							<% end %>
+						</ul>
+					<% end %>
+				</ul>
+>>>>>>> origin/_Limpieza
 			</div>
 	</div>
 
+<<<<<<< HEAD
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
@@ -95,6 +158,16 @@
 			<div class="col-md-6">
 				<div class="content">	
 					<% if flash[:notice] %>
+=======
+<div class="container">
+  	<div class="row">
+	    <div class="span12" id="someResults">
+
+	    </div>
+	    <div class="span12">
+			<div class="content">	
+				<% if flash[:notice] %>
+>>>>>>> origin/_Limpieza
 					<div class="alert alert-error">
 						<%=flash[:notice] %>
 					</div>
@@ -113,4 +186,5 @@
 	</footer>
 
 </body>
+
 </html>
