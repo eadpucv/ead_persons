@@ -4,117 +4,113 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta charset="utf-8">
 	<meta name="description" content="Personas - Single Sign On e[ad]"
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.ico">
 	<title>Personas e[ad]</title>
 	
-	<%= stylesheet_link_tag    "personas-ead"  %>
+	<%= stylesheet_link_tag    "personas"  %>
 
-	<%= javascript_include_tag "jquery" %>
-	<%= javascript_include_tag "prototype" %>
-	<%= javascript_include_tag "effects" %>
-	<%= javascript_include_tag "tablesort" %>	
-	<%= javascript_include_tag "application" %>
-	<%= javascript_include_tag "bootstrap-dropdown" %>
-	<%= javascript_include_tag "bootstrap-collapse" %>
+	<%= javascript_include_tag "jquery.min" %>
+	<%= javascript_include_tag "bootstrap.min" %>
 
 </head>
 
 <body>
 
-<div class="navbar">
-    <div class="navbar-inner">
-    	<div class="container">
 
-    		 <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			</a>
+	<div class="navbar">
+		
+			<div class="container">
 
-			<a class="brand" href="#">Personas e<span class="red">[</span>ad<span class="red">]</span></a>
-			
-			<div class="nav-collapse collapse">
-				<% if session[:cas_user] %>
-				<% @u = Usuario.find(:first, :conditions =>["usuario = ?", session[:cas_user]]) %>
-				<% if @u.admin == "si" %>					
-				<ul class="nav">
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Administración</a>
-						<b class="caret"></b>
-						<ul class="dropdown-menu">
-							<li <% if action_name=="list" %> class="active" <% end %> >
-								<a class="search" href="/usuarios/list/0">Buscar</a>
-							</li>
-					
-							<li <% if action_name=="signup" %> class="active" <% end %>>
-								<a class="add" href="/usuarios/signup">Nuevo Usuario</a>
-							</li>
-					
-							<li <% if action_name=="blockedUsers" %> class="active" <% end %>>
-								<a class="block" href="/usuarios/blockedUsers">Bloqueados</a>
-							</li>
-					
-							<li <% if action_name=="maillist" %> class="active" <% end %>>
-								<a class="filter" href="/usuarios/maillist">Filtrar</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-				<% end %>
-					
-				<ul class="nav pull-right">
-					<li class="dropdown pull-right">
+				<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
 
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i> Cuenta</a>
-						<b class="caret"></b>
-						<ul class="dropdown-menu">
-							<li><a class="edit" href="/usuarios/edit/<%= @u.id %>">Editar Datos</a></li>
-							<li><a class="logout" href="/usuarios/logout">LogOut</a></li>
-						</ul>
-					</li>
-					
-					<% else %>
-					<ul class="nav pull-right">
-						<% if session[:cas_user].blank? %>
-							<li><%= link_to "Registrarse", :controller => "usuarios", :action => "signup" %></li>
-							<li><%= link_to "Ingresar", :controller => "usuarios", :action => "list" %></li>
-							<li><%= link_to "Recuperar Contraseña", :controller => "usuarios", :action => "recuperacionDatos" %></li>
-						<% end %>
+				<a class="brand" href="#">Personas e<span class="red">[</span>ad<span class="red">]</span></a>
+
+				<div>
+					<% if session[:cas_user] %>
+					<% @u = Usuario.find(:first, :conditions =>["usuario = ?", session[:cas_user]]) %>
+					<% if @u.admin == "si" %>					
+					<ul class="nav">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Administración</a>
+							<b class="caret"></b>
+							<ul class="dropdown-menu">
+								<li <% if action_name=="list" %> class="active" <% end %> >
+									<a class="search" href="/usuarios/list/0">Buscar</a>
+								</li>
+
+								<li <% if action_name=="signup" %> class="active" <% end %>>
+									<a class="add" href="/usuarios/signup">Nuevo Usuario</a>
+								</li>
+
+								<li <% if action_name=="blockedUsers" %> class="active" <% end %>>
+									<a class="block" href="/usuarios/blockedUsers">Bloqueados</a>
+								</li>
+
+								<li <% if action_name=="maillist" %> class="active" <% end %>>
+									<a class="filter" href="/usuarios/maillist">Filtrar</a>
+								</li>
+							</ul>
+						</li>
 					</ul>
 					<% end %>
-				</ul>
+					
+					<ul class="nav pull-right">
+						<li class="dropdown pull-right">
+
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i> Cuenta</a>
+							<b class="caret"></b>
+							<ul class="dropdown-menu">
+								<li><a class="edit" href="/usuarios/edit/<%= @u.id %>">Editar Datos</a></li>
+								<li><a class="logout" href="/usuarios/logout">LogOut</a></li>
+							</ul>
+						</li>
+
+						<% else %>
+						<ul class="nav pull-right">
+							<% if session[:cas_user].blank? %>
+							<li><%= link_to "Ingresar", :controller => "usuarios", :action => "list", :class => 'btn btn-accion btn-lg' do %>Ingresa<% end %></li>
+							<li><%= link_to "Registrarse", :controller => "usuarios", :action => "signup", :class => 'btn btn-lg' do %>Crea una cuenta<% end %></li>
+							
+							<li><%= link_to "Recuperar Contraseña", :controller => "usuarios", :action => "recuperacionDatos", :class => 'btn btn-lg' do %>Recupera tu contraseña<% end %></li>
+							<% end %>
+						</ul>
+						<% end %>
+					</ul>
+				</div>
 			</div>
-		</div>
 	</div>
-</div>
 
-<div class="container">
-  	<div class="row">
-	    <div class="col-md-12">
-			<div id="extraSideBar"><%= yield :sidebar %></div>
-	    </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div id="extraSideBar"><%= yield :sidebar %></div>
+			</div>
 
-	    <div class="col-md-12">
-			<div class="content">	
-				<% if flash[:notice] %>
+			<div class="col-md-6">
+				<div class="content">	
+					<% if flash[:notice] %>
 					<div class="alert alert-error">
 						<%=flash[:notice] %>
 					</div>
 
-				<% end %>			
-				<%= yield :content %>
+					<% end %>			
+					<%= yield :content %>
+				</div>
 			</div>
-	    </div>
-	</div>
-</div>	
+		</div>
+	</div>	
 
-<footer>
-	<div class="container">
-		<p class="text-center"><strong>Personas</strong> es un sistema de registro único (SSO) desarrollado por el <a href="http://www.ead.pucv.cl/mundo/investigacion/tig/">.:TIG:.</a> para todos los servicios de la <a href="http://www.ead.pucv.cl/">e[ad] Escuela de Arquitectura y Diseño PUCV</a>.</p>
-	</div>
-</footer>
+	<footer>
+		<div class="container">
+			<p class="text-center"><strong>Personas</strong> es un sistema de registro único (SSO) desarrollado por el <a href="http://www.ead.pucv.cl/mundo/investigacion/tig/">.:TIG:.</a> para todos los servicios de la <a href="http://www.ead.pucv.cl/">e[ad] Escuela de Arquitectura y Diseño PUCV</a>.</p>
+		</div>
+	</footer>
 
 </body>
 </html>

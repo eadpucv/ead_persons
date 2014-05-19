@@ -15442,3 +15442,1087 @@ ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"
   
 
 Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 16:57:27 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at Mon May 19 16:57:27 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at Mon May 19 16:57:27 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at Mon May 19 16:57:27 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/tablesort.js" for 127.0.0.1 at Mon May 19 16:57:27 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/tablesort.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/application.js" for 127.0.0.1 at Mon May 19 16:57:27 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/application.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/bootstrap-dropdown.js" for 127.0.0.1 at Mon May 19 16:57:27 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-dropdown.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/bootstrap-collapse.js" for 127.0.0.1 at Mon May 19 16:57:27 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap-collapse.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images//ruido-gris-blanco.png" for 127.0.0.1 at Mon May 19 16:57:27 -0400 2014
+
+ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 17:04:24 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at Mon May 19 17:04:24 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/bootstrap.min" for 127.0.0.1 at Mon May 19 17:04:24 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap.min"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images//ruido-gris-blanco.png" for 127.0.0.1 at Mon May 19 17:04:24 -0400 2014
+
+ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 17:04:40 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at Mon May 19 17:04:40 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/bootstrap.min.js" for 127.0.0.1 at Mon May 19 17:04:40 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/bootstrap.min.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/images//ruido-gris-blanco.png" for 127.0.0.1 at Mon May 19 17:04:40 -0400 2014
+
+ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 17:06:41 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/js/jquery.min.js" for 127.0.0.1 at Mon May 19 17:06:42 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/js/jquery.min.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/js/bootstrap.min.js" for 127.0.0.1 at Mon May 19 17:06:42 -0400 2014
+
+ActionController::RoutingError (No route matches "/javascripts/js/bootstrap.min.js"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images//ruido-gris-blanco.png" for 127.0.0.1 at Mon May 19 17:06:42 -0400 2014
+
+ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 17:08:39 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images//ruido-gris-blanco.png" for 127.0.0.1 at Mon May 19 17:08:39 -0400 2014
+
+ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 17:10:47 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images//ruido-gris-blanco.png" for 127.0.0.1 at Mon May 19 17:10:47 -0400 2014
+
+ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 17:12:52 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images//ruido-gris-blanco.png" for 127.0.0.1 at Mon May 19 17:12:52 -0400 2014
+
+ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 17:13:07 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images//ruido-gris-blanco.png" for 127.0.0.1 at Mon May 19 17:13:07 -0400 2014
+
+ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/personas/usuarios/list" for 127.0.0.1 at Mon May 19 17:13:12 -0400 2014
+  Processing by UsuariosController#list as HTML
+Redirected to http://190.208.62.202:443/cas/login?service=http%3A%2F%2F0.0.0.0%3A3000%2Fpersonas%2Fusuarios%2Flist
+Completed 302 Found in 2ms
+
+
+Started GET "/personas/usuarios/list?ticket=ST-1400533996rDkbSd4Oz2kwJ5-XuTy" for 127.0.0.1 at Mon May 19 17:13:17 -0400 2014
+  Processing by UsuariosController#list as HTML
+  Parameters: {"ticket"=>"ST-1400533996rDkbSd4Oz2kwJ5-XuTy"}
+  [1m[36mUsuario Load (26.6ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE (usuario = 'hspencer') LIMIT 1[0m
+  [1m[35mUsuario Load (1.6ms)[0m  SELECT `usuarios`.* FROM `usuarios` LIMIT 30 OFFSET 0
+  [1m[36mSQL (0.9ms)[0m  [1mSELECT COUNT(*) FROM `usuarios`[0m
+  [1m[35mUsuario Load (26.2ms)[0m  SELECT * FROM casserver_st WHERE (username = 'manguloa') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (6.2ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'jaguilara') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (5.7ms)[0m  SELECT * FROM casserver_st WHERE (username = 'daniela655321') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (5.0ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'calmarzat') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (7.0ms)[0m  SELECT * FROM casserver_st WHERE (username = 'paguirrel') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (10.9ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'pantillancam') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (5.5ms)[0m  SELECT * FROM casserver_st WHERE (username = 'sarancibiac') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.9ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'jarayag') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (1.9ms)[0m  SELECT * FROM casserver_st WHERE (username = 'varayaj') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.7ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'Vanesa Arenas') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (7.5ms)[0m  SELECT * FROM casserver_st WHERE (username = 'casenjog') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (5.1ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'ibarríal') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (5.6ms)[0m  SELECT * FROM casserver_st WHERE (username = 'bbarriosm') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (5.1ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'ebaumanno') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.9ms)[0m  SELECT * FROM casserver_st WHERE (username = 'pbaumanns') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (11.0ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'mbeckers') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (5.6ms)[0m  SELECT * FROM casserver_st WHERE (username = 'lbehnkeg') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.5ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'mboppi') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.6ms)[0m  SELECT * FROM casserver_st WHERE (username = 'jbordap') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.9ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'mborquezj') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.5ms)[0m  SELECT * FROM casserver_st WHERE (username = 'ebravoc') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.5ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'mbravod') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.5ms)[0m  SELECT * FROM casserver_st WHERE (username = 'abriceñom') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.7ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'fbrionesm') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (6.0ms)[0m  SELECT * FROM casserver_st WHERE (username = 'fbustamantej') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (5.4ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'nbustosl') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.6ms)[0m  SELECT * FROM casserver_st WHERE (username = 'jbuvinich') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.8ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'kcabezasl') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.8ms)[0m  SELECT * FROM casserver_st WHERE (username = 'ccabezasm') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.7ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'tcáceresc') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `usuarios`.* FROM `usuarios` WHERE (usuario = 'hspencer') LIMIT 1
+Rendered usuarios/list.html.erb within layouts/application (204.6ms)
+Completed 200 OK in 483ms (Views: 24.8ms | ActiveRecord: 214.3ms)
+
+
+Started GET "/images//ruido-gris-blanco.png" for 127.0.0.1 at Mon May 19 17:13:17 -0400 2014
+
+ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/personas/usuarios/list?ticket=ST-1400534013r5Q8BG90yRR7D-08QpK" for 127.0.0.1 at Mon May 19 17:13:33 -0400 2014
+  Processing by UsuariosController#list as HTML
+  Parameters: {"ticket"=>"ST-1400534013r5Q8BG90yRR7D-08QpK"}
+  [1m[36mUsuario Load (0.4ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE (usuario = 'hspencer') LIMIT 1[0m
+  [1m[35mUsuario Load (0.5ms)[0m  SELECT `usuarios`.* FROM `usuarios` LIMIT 30 OFFSET 0
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM `usuarios`[0m
+  [1m[35mUsuario Load (5.6ms)[0m  SELECT * FROM casserver_st WHERE (username = 'manguloa') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (5.0ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'jaguilara') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (8.8ms)[0m  SELECT * FROM casserver_st WHERE (username = 'daniela655321') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (5.3ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'calmarzat') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (8.6ms)[0m  SELECT * FROM casserver_st WHERE (username = 'paguirrel') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (5.1ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'pantillancam') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.6ms)[0m  SELECT * FROM casserver_st WHERE (username = 'sarancibiac') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (11.0ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'jarayag') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (2.9ms)[0m  SELECT * FROM casserver_st WHERE (username = 'varayaj') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (5.7ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'Vanesa Arenas') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.9ms)[0m  SELECT * FROM casserver_st WHERE (username = 'casenjog') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.5ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'ibarríal') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (9.5ms)[0m  SELECT * FROM casserver_st WHERE (username = 'bbarriosm') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (5.0ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'ebaumanno') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (5.2ms)[0m  SELECT * FROM casserver_st WHERE (username = 'pbaumanns') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.7ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'mbeckers') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.6ms)[0m  SELECT * FROM casserver_st WHERE (username = 'lbehnkeg') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.6ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'mboppi') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.5ms)[0m  SELECT * FROM casserver_st WHERE (username = 'jbordap') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.5ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'mborquezj') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.8ms)[0m  SELECT * FROM casserver_st WHERE (username = 'ebravoc') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (8.8ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'mbravod') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (5.0ms)[0m  SELECT * FROM casserver_st WHERE (username = 'abriceñom') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (8.5ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'fbrionesm') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (6.2ms)[0m  SELECT * FROM casserver_st WHERE (username = 'fbustamantej') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (5.5ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'nbustosl') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (5.7ms)[0m  SELECT * FROM casserver_st WHERE (username = 'jbuvinich') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.8ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'kcabezasl') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (5.7ms)[0m  SELECT * FROM casserver_st WHERE (username = 'ccabezasm') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (5.0ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'tcáceresc') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `usuarios`.* FROM `usuarios` WHERE (usuario = 'hspencer') LIMIT 1
+Rendered usuarios/list.html.erb within layouts/application (195.7ms)
+Completed 200 OK in 230ms (Views: 25.2ms | ActiveRecord: 175.6ms)
+
+
+Started GET "/images//ruido-gris-blanco.png" for 127.0.0.1 at Mon May 19 17:13:34 -0400 2014
+
+ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/personas/usuarios/list?ticket=ST-1400534030r0Bf1a5DAf2PyPNLOta" for 127.0.0.1 at Mon May 19 17:13:51 -0400 2014
+  Processing by UsuariosController#list as HTML
+  Parameters: {"ticket"=>"ST-1400534030r0Bf1a5DAf2PyPNLOta"}
+  [1m[36mUsuario Load (0.4ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE (usuario = 'hspencer') LIMIT 1[0m
+  [1m[35mUsuario Load (0.4ms)[0m  SELECT `usuarios`.* FROM `usuarios` LIMIT 30 OFFSET 0
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM `usuarios`[0m
+  [1m[35mUsuario Load (4.9ms)[0m  SELECT * FROM casserver_st WHERE (username = 'manguloa') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.7ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'jaguilara') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.5ms)[0m  SELECT * FROM casserver_st WHERE (username = 'daniela655321') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (11.0ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'calmarzat') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (5.6ms)[0m  SELECT * FROM casserver_st WHERE (username = 'paguirrel') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (9.1ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'pantillancam') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.8ms)[0m  SELECT * FROM casserver_st WHERE (username = 'sarancibiac') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (5.0ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'jarayag') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.2ms)[0m  SELECT * FROM casserver_st WHERE (username = 'varayaj') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (6.6ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'Vanesa Arenas') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (6.0ms)[0m  SELECT * FROM casserver_st WHERE (username = 'casenjog') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (5.0ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'ibarríal') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.6ms)[0m  SELECT * FROM casserver_st WHERE (username = 'bbarriosm') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.8ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'ebaumanno') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (5.2ms)[0m  SELECT * FROM casserver_st WHERE (username = 'pbaumanns') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (8.1ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'mbeckers') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (5.0ms)[0m  SELECT * FROM casserver_st WHERE (username = 'lbehnkeg') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (5.4ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'mboppi') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.6ms)[0m  SELECT * FROM casserver_st WHERE (username = 'jbordap') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (6.9ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'mborquezj') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (7.2ms)[0m  SELECT * FROM casserver_st WHERE (username = 'ebravoc') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (5.7ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'mbravod') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (5.1ms)[0m  SELECT * FROM casserver_st WHERE (username = 'abriceñom') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (7.1ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'fbrionesm') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (9.2ms)[0m  SELECT * FROM casserver_st WHERE (username = 'fbustamantej') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (5.3ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'nbustosl') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (5.2ms)[0m  SELECT * FROM casserver_st WHERE (username = 'jbuvinich') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.9ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'kcabezasl') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.7ms)[0m  SELECT * FROM casserver_st WHERE (username = 'ccabezasm') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (7.3ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'tcáceresc') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `usuarios`.* FROM `usuarios` WHERE (usuario = 'hspencer') LIMIT 1
+Rendered usuarios/list.html.erb within layouts/application (197.8ms)
+Completed 200 OK in 222ms (Views: 24.5ms | ActiveRecord: 178.8ms)
+
+
+Started GET "/images//ruido-gris-blanco.png" for 127.0.0.1 at Mon May 19 17:13:51 -0400 2014
+
+ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/personas/usuarios/list?ticket=ST-1400534030r0Bf1a5DAf2PyPNLOta" for 127.0.0.1 at Mon May 19 17:25:05 -0400 2014
+  Processing by UsuariosController#list as HTML
+  Parameters: {"ticket"=>"ST-1400534030r0Bf1a5DAf2PyPNLOta"}
+  [1m[36mUsuario Load (7.8ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE (usuario = 'hspencer') LIMIT 1[0m
+  [1m[35mUsuario Load (1.6ms)[0m  SELECT `usuarios`.* FROM `usuarios` LIMIT 30 OFFSET 0
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM `usuarios`[0m
+  [1m[35mUsuario Load (8.0ms)[0m  SELECT * FROM casserver_st WHERE (username = 'manguloa') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.8ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'jaguilara') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.5ms)[0m  SELECT * FROM casserver_st WHERE (username = 'daniela655321') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (8.8ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'calmarzat') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.7ms)[0m  SELECT * FROM casserver_st WHERE (username = 'paguirrel') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.5ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'pantillancam') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (7.4ms)[0m  SELECT * FROM casserver_st WHERE (username = 'sarancibiac') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (6.9ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'jarayag') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (2.2ms)[0m  SELECT * FROM casserver_st WHERE (username = 'varayaj') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.8ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'Vanesa Arenas') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.5ms)[0m  SELECT * FROM casserver_st WHERE (username = 'casenjog') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.4ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'ibarríal') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.6ms)[0m  SELECT * FROM casserver_st WHERE (username = 'bbarriosm') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.5ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'ebaumanno') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.6ms)[0m  SELECT * FROM casserver_st WHERE (username = 'pbaumanns') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (11.4ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'mbeckers') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (5.7ms)[0m  SELECT * FROM casserver_st WHERE (username = 'lbehnkeg') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (5.6ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'mboppi') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.7ms)[0m  SELECT * FROM casserver_st WHERE (username = 'jbordap') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.4ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'mborquezj') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.8ms)[0m  SELECT * FROM casserver_st WHERE (username = 'ebravoc') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (8.7ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'mbravod') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (5.7ms)[0m  SELECT * FROM casserver_st WHERE (username = 'abriceñom') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (7.2ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'fbrionesm') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.8ms)[0m  SELECT * FROM casserver_st WHERE (username = 'fbustamantej') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (5.1ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'nbustosl') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.7ms)[0m  SELECT * FROM casserver_st WHERE (username = 'jbuvinich') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (4.8ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'kcabezasl') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mUsuario Load (4.7ms)[0m  SELECT * FROM casserver_st WHERE (username = 'ccabezasm') ORDER BY id DESC LIMIT 1 
+  [1m[36mUsuario Load (5.1ms)[0m  [1mSELECT * FROM casserver_st WHERE (username = 'tcáceresc') ORDER BY id DESC LIMIT 1 [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `usuarios`.* FROM `usuarios` WHERE (usuario = 'hspencer') LIMIT 1
+Rendered usuarios/list.html.erb within layouts/application (188.1ms)
+Completed 200 OK in 245ms (Views: 31.3ms | ActiveRecord: 176.5ms)
+
+
+Started GET "/images//ruido-gris-blanco.png" for 127.0.0.1 at Mon May 19 17:25:06 -0400 2014
+
+ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/usuarios/logout" for 127.0.0.1 at Mon May 19 17:26:01 -0400 2014
+  Processing by UsuariosController#logout as HTML
+Redirected to http://190.208.62.202:443/cas/logout?gateway=true&destination=http%3A%2F%2F0.0.0.0%3A3000%2Fpersonas%2Fusuarios%2Flist
+Completed 302 Found in 3ms
+
+
+Started GET "/personas/usuarios/list" for 127.0.0.1 at Mon May 19 17:26:02 -0400 2014
+  Processing by UsuariosController#list as HTML
+Redirected to http://190.208.62.202:443/cas/login?service=http%3A%2F%2F0.0.0.0%3A3000%2Fpersonas%2Fusuarios%2Flist
+Completed 302 Found in 1ms
+
+
+Started GET "/personas/usuarios/list?ticket=ST-1400534030r0Bf1a5DAf2PyPNLOta" for 127.0.0.1 at Mon May 19 17:33:50 -0400 2014
+  Processing by UsuariosController#list as HTML
+  Parameters: {"ticket"=>"ST-1400534030r0Bf1a5DAf2PyPNLOta"}
+Redirected to http://190.208.62.202:443/cas/login?service=http%3A%2F%2F0.0.0.0%3A3000%2Fpersonas%2Fusuarios%2Flist
+Completed 302 Found in 38ms
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 17:33:59 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images//ruido-gris-blanco.png" for 127.0.0.1 at Mon May 19 17:33:59 -0400 2014
+
+ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 17:34:01 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images//ruido-gris-blanco.png" for 127.0.0.1 at Mon May 19 17:34:01 -0400 2014
+
+ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images//ruido-gris-blanco.png" for 127.0.0.1 at Mon May 19 17:34:47 -0400 2014
+
+ActionController::RoutingError (No route matches "/images/ruido-gris-blanco.png"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 17:37:26 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 17:41:37 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 61ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 17:41:46 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 17:52:00 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 17:52:39 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 17:52:42 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 17:57:03 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 17:58:44 -0400 2014
+  Processing by UsuariosController#index as HTML
+ERROR: compiling _app_views_layouts_application_html_erb___1106465695_2245375280_0 RAISED compile error
+/Users/hspencer/Sites/ead/ead_persons/app/views/layouts/application.html.erb:77: syntax error, unexpected ')', expecting tASSOC
+...nup", {:class=>"btn btn-lg"} );@output_buffer.safe_concat('<...
+                              ^
+/Users/hspencer/Sites/ead/ead_persons/app/views/layouts/application.html.erb:80: syntax error, unexpected kEND, expecting ')'
+');							 end 
+   							    ^
+/Users/hspencer/Sites/ead/ead_persons/app/views/layouts/application.html.erb:82: syntax error, unexpected kEND, expecting ')'
+');						 end 
+   						    ^
+/Users/hspencer/Sites/ead/ead_persons/app/views/layouts/application.html.erb:117: syntax error, unexpected kENSURE, expecting ')'
+/Users/hspencer/Sites/ead/ead_persons/app/views/layouts/application.html.erb:119: syntax error, unexpected kEND, expecting ')'
+Function body:           def _app_views_layouts_application_html_erb___1106465695_2245375280_0(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "layouts/application";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta charset="utf-8">
+	<meta name="description" content="Personas - Single Sign On e[ad]"
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.ico">
+	<title>Personas e[ad]</title>
+	
+	');@output_buffer.append= ( stylesheet_link_tag    "personas"  );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+	');@output_buffer.append= ( javascript_include_tag "jquery.min" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	');@output_buffer.append= ( javascript_include_tag "bootstrap.min" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+</head>
+
+<body>
+
+
+	<div class="navbar">
+		
+			<div class="container">
+
+				<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+
+				<a class="brand" href="#">Personas e<span class="red">[</span>ad<span class="red">]</span></a>
+
+				<div>
+');					 if session[:cas_user] 
+					 @u = Usuario.find(:first, :conditions =>["usuario = ?", session[:cas_user]]) 
+					 if @u.admin == "si" 					
+@output_buffer.safe_concat('					<ul class="nav">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Administración</a>
+							<b class="caret"></b>
+							<ul class="dropdown-menu">
+								<li '); if action_name=="list" ;@output_buffer.safe_concat(' class="active" '); end ;@output_buffer.safe_concat(' >
+									<a class="search" href="/usuarios/list/0">Buscar</a>
+								</li>
+
+								<li '); if action_name=="signup" ;@output_buffer.safe_concat(' class="active" '); end ;@output_buffer.safe_concat('>
+									<a class="add" href="/usuarios/signup">Nuevo Usuario</a>
+								</li>
+
+								<li '); if action_name=="blockedUsers" ;@output_buffer.safe_concat(' class="active" '); end ;@output_buffer.safe_concat('>
+									<a class="block" href="/usuarios/blockedUsers">Bloqueados</a>
+								</li>
+
+								<li '); if action_name=="maillist" ;@output_buffer.safe_concat(' class="active" '); end ;@output_buffer.safe_concat('>
+									<a class="filter" href="/usuarios/maillist">Filtrar</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+');					 end 
+@output_buffer.safe_concat('					
+					<ul class="nav pull-right">
+						<li class="dropdown pull-right">
+
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i> Cuenta</a>
+							<b class="caret"></b>
+							<ul class="dropdown-menu">
+								<li><a class="edit" href="/usuarios/edit/');@output_buffer.append= ( @u.id );@output_buffer.safe_concat('">Editar Datos</a></li>
+								<li><a class="logout" href="/usuarios/logout">LogOut</a></li>
+							</ul>
+						</li>
+
+');						 else 
+@output_buffer.safe_concat('						<ul class="nav pull-right">
+');							 if session[:cas_user].blank? 
+@output_buffer.safe_concat('							<li>');@output_buffer.append= ( link_to "Registrarse", :controller => "usuarios", :action => "signup", {:class=>"btn btn-lg"} );@output_buffer.safe_concat('</li>
+							<li>');@output_buffer.append= ( link_to "Ingresar", :controller => "usuarios", :action => "list" );@output_buffer.safe_concat('</li>
+							<li>');@output_buffer.append= ( link_to "Recuperar Contraseña", :controller => "usuarios", :action => "recuperacionDatos" );@output_buffer.safe_concat('</li>
+');							 end 
+@output_buffer.safe_concat('						</ul>
+');						 end 
+@output_buffer.safe_concat('					</ul>
+				</div>
+			</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div id="extraSideBar">');@output_buffer.append= ( yield :sidebar );@output_buffer.safe_concat('</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="content">	
+');					 if flash[:notice] 
+@output_buffer.safe_concat('					<div class="alert alert-error">
+						');@output_buffer.append= (flash[:notice] );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('					</div>
+
+');					 end 			
+@output_buffer.safe_concat('					');@output_buffer.append= ( yield :content );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('				</div>
+			</div>
+		</div>
+	</div>	
+
+	<footer>
+		<div class="container">
+			<p class="text-center"><strong>Personas</strong> es un sistema de registro único (SSO) desarrollado por el <a href="http://www.ead.pucv.cl/mundo/investigacion/tig/">.:TIG:.</a> para todos los servicios de la <a href="http://www.ead.pucv.cl/">e[ad] Escuela de Arquitectura y Diseño PUCV</a>.</p>
+		</div>
+	</footer>
+
+</body>
+</html>
+');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/hspencer/Sites/ead/ead_persons/app/views/layouts/application.html.erb:119:in `compile'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_view/template.rb:134:in `render'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:54:in `instrument'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_view/template.rb:127:in `render'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_view/render/layouts.rb:80:in `_render_layout'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:62:in `_render_template'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:26:in `render'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:114:in `_render_template'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:108:in `render_to_body'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:101:in `render_to_string'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:92:in `render'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activerecord-3.0.3/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/abstract_controller/base.rb:151:in `process_action'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:435:in `_run__1981808522__process_action__39967799__callbacks'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:409:in `send'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:93:in `send'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/abstract_controller/base.rb:120:in `process'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:40:in `process'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal.rb:138:in `dispatch'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal.rb:178:in `action'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `recognize'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/methodoverride.rb:24:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/cookies.rb:295:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:32:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activerecord-3.0.3/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:12:in `cache'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:31:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activerecord-3.0.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:353:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/sendfile.rb:106:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/show_exceptions.rb:46:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/railties-3.0.3/lib/rails/rack/logger.rb:13:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/runtime.rb:17:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/lock.rb:13:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/lock.rb:13:in `synchronize'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/lock.rb:13:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/railties-3.0.3/lib/rails/application.rb:168:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/railties-3.0.3/lib/rails/application.rb:77:in `send'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/railties-3.0.3/lib/rails/application.rb:77:in `method_missing'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/railties-3.0.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/content_length.rb:13:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/handler/webrick.rb:52:in `service'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/handler/webrick.rb:13:in `run'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/server.rb:217:in `start'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/railties-3.0.3/lib/rails/commands/server.rb:65:in `start'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/railties-3.0.3/lib/rails/commands.rb:30
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/railties-3.0.3/lib/rails/commands.rb:27:in `tap'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/railties-3.0.3/lib/rails/commands.rb:27
+script/rails:6:in `require'
+script/rails:6
+Rendered usuarios/index.html.erb within layouts/application (20.4ms)
+Completed   in 26ms
+
+ActionView::Template::Error (compile error
+/Users/hspencer/Sites/ead/ead_persons/app/views/layouts/application.html.erb:77: syntax error, unexpected ')', expecting tASSOC
+...nup", {:class=>"btn btn-lg"} );@output_buffer.safe_concat('<...
+                              ^
+/Users/hspencer/Sites/ead/ead_persons/app/views/layouts/application.html.erb:80: syntax error, unexpected kEND, expecting ')'
+');							 end 
+   							    ^
+/Users/hspencer/Sites/ead/ead_persons/app/views/layouts/application.html.erb:82: syntax error, unexpected kEND, expecting ')'
+');						 end 
+   						    ^
+/Users/hspencer/Sites/ead/ead_persons/app/views/layouts/application.html.erb:117: syntax error, unexpected kENSURE, expecting ')'
+/Users/hspencer/Sites/ead/ead_persons/app/views/layouts/application.html.erb:119: syntax error, unexpected kEND, expecting ')'):
+    74: 						<% else %>
+    75: 						<ul class="nav pull-right">
+    76: 							<% if session[:cas_user].blank? %>
+    77: 							<li><%= link_to "Registrarse", :controller => "usuarios", :action => "signup", {:class=>"btn btn-lg"} %></li>
+    78: 							<li><%= link_to "Ingresar", :controller => "usuarios", :action => "list" %></li>
+    79: 							<li><%= link_to "Recuperar Contraseña", :controller => "usuarios", :action => "recuperacionDatos" %></li>
+    80: 							<% end %>
+  app/views/layouts/application.html.erb:119:in `compile'
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.1ms)
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (50.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 17:59:32 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 9ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 19 18:01:35 -0400 2014
+  Processing by UsuariosController#index as HTML
+Rendered usuarios/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/personas/usuarios/signup?class=btn" for 127.0.0.1 at Mon May 19 18:01:40 -0400 2014
+  Processing by UsuariosController#signup as HTML
+  Parameters: {"class"=>"btn"}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_usuarios_signup_html_erb___1028637770_2247982520_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:1)
+DEPRECATION WARNING: Using form_for(:name, @resource) is deprecated. Please use form_for(@resource, :as => :name) instead. (called from _app_views_usuarios_signup_html_erb___1028637770_2247982520_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:8)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_usuarios_signup_html_erb___1028637770_2247982520_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:8)
+Rendered usuarios/signup.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 79ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/personas/usuarios/favicon.ico" for 127.0.0.1 at Mon May 19 18:01:40 -0400 2014
+
+ActionController::RoutingError (No route matches "/personas/usuarios/favicon.ico"):
+  
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/personas/usuarios/signup?class=btn" for 127.0.0.1 at Mon May 19 18:03:22 -0400 2014
+  Processing by UsuariosController#signup as HTML
+  Parameters: {"class"=>"btn"}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_usuarios_signup_html_erb___1028637770_2244939700_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:1)
+DEPRECATION WARNING: Using form_for(:name, @resource) is deprecated. Please use form_for(@resource, :as => :name) instead. (called from _app_views_usuarios_signup_html_erb___1028637770_2244939700_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:8)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_usuarios_signup_html_erb___1028637770_2244939700_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:8)
+Rendered usuarios/signup.html.erb within layouts/application (54.8ms)
+Completed 200 OK in 85ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/personas/usuarios/signup?class=btn" for 127.0.0.1 at Mon May 19 18:04:45 -0400 2014
+  Processing by UsuariosController#signup as HTML
+  Parameters: {"class"=>"btn"}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_usuarios_signup_html_erb___1028637770_2247027920_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:1)
+DEPRECATION WARNING: Using form_for(:name, @resource) is deprecated. Please use form_for(@resource, :as => :name) instead. (called from _app_views_usuarios_signup_html_erb___1028637770_2247027920_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:8)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_usuarios_signup_html_erb___1028637770_2247027920_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:8)
+ERROR: compiling _app_views_layouts_application_html_erb___1106465695_2247024800_0 RAISED compile error
+/Users/hspencer/Sites/ead/ead_persons/app/views/layouts/application.html.erb:117: syntax error, unexpected kENSURE, expecting kEND
+/Users/hspencer/Sites/ead/ead_persons/app/views/layouts/application.html.erb:119: syntax error, unexpected $end, expecting kEND
+Function body:           def _app_views_layouts_application_html_erb___1106465695_2247024800_0(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "layouts/application";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta charset="utf-8">
+	<meta name="description" content="Personas - Single Sign On e[ad]"
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.ico">
+	<title>Personas e[ad]</title>
+	
+	');@output_buffer.append= ( stylesheet_link_tag    "personas"  );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+	');@output_buffer.append= ( javascript_include_tag "jquery.min" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	');@output_buffer.append= ( javascript_include_tag "bootstrap.min" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+</head>
+
+<body>
+
+
+	<div class="navbar">
+		
+			<div class="container">
+
+				<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+
+				<a class="brand" href="#">Personas e<span class="red">[</span>ad<span class="red">]</span></a>
+
+				<div>
+');					 if session[:cas_user] 
+					 @u = Usuario.find(:first, :conditions =>["usuario = ?", session[:cas_user]]) 
+					 if @u.admin == "si" 					
+@output_buffer.safe_concat('					<ul class="nav">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Administración</a>
+							<b class="caret"></b>
+							<ul class="dropdown-menu">
+								<li '); if action_name=="list" ;@output_buffer.safe_concat(' class="active" '); end ;@output_buffer.safe_concat(' >
+									<a class="search" href="/usuarios/list/0">Buscar</a>
+								</li>
+
+								<li '); if action_name=="signup" ;@output_buffer.safe_concat(' class="active" '); end ;@output_buffer.safe_concat('>
+									<a class="add" href="/usuarios/signup">Nuevo Usuario</a>
+								</li>
+
+								<li '); if action_name=="blockedUsers" ;@output_buffer.safe_concat(' class="active" '); end ;@output_buffer.safe_concat('>
+									<a class="block" href="/usuarios/blockedUsers">Bloqueados</a>
+								</li>
+
+								<li '); if action_name=="maillist" ;@output_buffer.safe_concat(' class="active" '); end ;@output_buffer.safe_concat('>
+									<a class="filter" href="/usuarios/maillist">Filtrar</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+');					 end 
+@output_buffer.safe_concat('					
+					<ul class="nav pull-right">
+						<li class="dropdown pull-right">
+
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i> Cuenta</a>
+							<b class="caret"></b>
+							<ul class="dropdown-menu">
+								<li><a class="edit" href="/usuarios/edit/');@output_buffer.append= ( @u.id );@output_buffer.safe_concat('">Editar Datos</a></li>
+								<li><a class="logout" href="/usuarios/logout">LogOut</a></li>
+							</ul>
+						</li>
+
+');						 else 
+@output_buffer.safe_concat('						<ul class="nav pull-right">
+');							 if session[:cas_user].blank? 
+@output_buffer.safe_concat('							<li>');@output_buffer.append=  link_to "Registrarse", :controller => "usuarios", :action => "signup", :class => 'btn btn-lg' do @output_buffer.safe_concat('Crea una cuenta'); end ;@output_buffer.safe_concat('</li>
+							<li>');@output_buffer.append=  link_to "Ingresar", :controller => "usuarios", :action => "list", :class => 'btn btn-accion btn-lg' do @output_buffer.safe_concat('Ingresa</li>
+							<li>');@output_buffer.append=  link_to "Recuperar Contraseña", :controller => "usuarios", :action => "recuperacionDatos", :class => 'btn btn-lg' do @output_buffer.safe_concat('Recupera tu contraseña</li>
+');							 end 
+@output_buffer.safe_concat('						</ul>
+');						 end 
+@output_buffer.safe_concat('					</ul>
+				</div>
+			</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div id="extraSideBar">');@output_buffer.append= ( yield :sidebar );@output_buffer.safe_concat('</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="content">	
+');					 if flash[:notice] 
+@output_buffer.safe_concat('					<div class="alert alert-error">
+						');@output_buffer.append= (flash[:notice] );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('					</div>
+
+');					 end 			
+@output_buffer.safe_concat('					');@output_buffer.append= ( yield :content );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('				</div>
+			</div>
+		</div>
+	</div>	
+
+	<footer>
+		<div class="container">
+			<p class="text-center"><strong>Personas</strong> es un sistema de registro único (SSO) desarrollado por el <a href="http://www.ead.pucv.cl/mundo/investigacion/tig/">.:TIG:.</a> para todos los servicios de la <a href="http://www.ead.pucv.cl/">e[ad] Escuela de Arquitectura y Diseño PUCV</a>.</p>
+		</div>
+	</footer>
+
+</body>
+</html>
+');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/hspencer/Sites/ead/ead_persons/app/views/layouts/application.html.erb:119:in `compile'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_view/template.rb:134:in `render'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:54:in `instrument'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_view/template.rb:127:in `render'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_view/render/layouts.rb:80:in `_render_layout'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:62:in `_render_template'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:26:in `render'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:114:in `_render_template'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:108:in `render_to_body'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:101:in `render_to_string'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:92:in `render'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activerecord-3.0.3/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/abstract_controller/base.rb:151:in `process_action'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:435:in `_run__1981808522__process_action__959205051__callbacks'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:409:in `send'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:93:in `send'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/abstract_controller/base.rb:120:in `process'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:40:in `process'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal.rb:138:in `dispatch'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_controller/metal.rb:178:in `action'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `recognize'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/methodoverride.rb:24:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/cookies.rb:295:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:32:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activerecord-3.0.3/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:12:in `cache'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:31:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activerecord-3.0.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:353:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/sendfile.rb:106:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/show_exceptions.rb:46:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/railties-3.0.3/lib/rails/rack/logger.rb:13:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/runtime.rb:17:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/activesupport-3.0.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/lock.rb:13:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/lock.rb:13:in `synchronize'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/lock.rb:13:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/railties-3.0.3/lib/rails/application.rb:168:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/railties-3.0.3/lib/rails/application.rb:77:in `send'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/railties-3.0.3/lib/rails/application.rb:77:in `method_missing'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/railties-3.0.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/content_length.rb:13:in `call'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/handler/webrick.rb:52:in `service'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/handler/webrick.rb:13:in `run'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/rack-1.2.5/lib/rack/server.rb:217:in `start'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/railties-3.0.3/lib/rails/commands/server.rb:65:in `start'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/railties-3.0.3/lib/rails/commands.rb:30
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/railties-3.0.3/lib/rails/commands.rb:27:in `tap'
+/Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/railties-3.0.3/lib/rails/commands.rb:27
+script/rails:6:in `require'
+script/rails:6
+Rendered usuarios/signup.html.erb within layouts/application (12.7ms)
+Completed   in 24ms
+
+ActionView::Template::Error (compile error
+/Users/hspencer/Sites/ead/ead_persons/app/views/layouts/application.html.erb:117: syntax error, unexpected kENSURE, expecting kEND
+/Users/hspencer/Sites/ead/ead_persons/app/views/layouts/application.html.erb:119: syntax error, unexpected $end, expecting kEND):
+    114: </body>
+    115: </html>
+  app/views/layouts/application.html.erb:119:in `compile'
+
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /Users/hspencer/.rbenv/versions/1.8.7-p374/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.6ms)
+
+
+Started GET "/personas/usuarios/signup?class=btn" for 127.0.0.1 at Mon May 19 18:05:02 -0400 2014
+  Processing by UsuariosController#signup as HTML
+  Parameters: {"class"=>"btn"}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_usuarios_signup_html_erb___1028637770_2249018640_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:1)
+DEPRECATION WARNING: Using form_for(:name, @resource) is deprecated. Please use form_for(@resource, :as => :name) instead. (called from _app_views_usuarios_signup_html_erb___1028637770_2249018640_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:8)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_usuarios_signup_html_erb___1028637770_2249018640_0 at /Users/hspencer/Sites/ead/ead_persons/app/views/usuarios/signup.html.erb:8)
+Rendered usuarios/signup.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 67ms (Views: 16.9ms | ActiveRecord: 0.0ms)

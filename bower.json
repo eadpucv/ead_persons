@@ -2,7 +2,7 @@
   "name": "personas",
   "version": "2.0.0",
   "dependencies": {
-  	"bootstrap": "https://github.com/twbs/bootstrap/",
+  	"bootstrap": "3.1.1",
     "pyxis": "https://github.com/eadpucv/pyxis.git"
   }
 }
