@@ -14,3 +14,4 @@ gem 'rubycas-client'
 # others
 gem 'will_paginate'
 gem 'mediawiki-gateway'
+gem 'activerecord-mysql2-adapter'

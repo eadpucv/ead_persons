@@ -26082,3 +26082,15 @@ DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>
   [1m[36mUsuario Load (1.1ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios` WHERE (usuario = 'rodrigomt') LIMIT 1[0m
 Rendered user/signup.html.erb within layouts/application (22.7ms)
 Completed 200 OK in 36ms (Views: 26.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Feb 02 16:04:37 -0300 2016
+  Processing by OthersController#index as HTML
+Rendered others/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home_user" for 127.0.0.1 at Tue Feb 02 16:04:43 -0300 2016
+  Processing by UserController#home_user as HTML
+Redirected to http://190.208.62.202:443/cas/login?service=http%3A%2F%2F0.0.0.0%3A3000%2Fhome_user
+Completed 302 Found in 1ms
