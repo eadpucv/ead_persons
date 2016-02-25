@@ -1,136 +1,162 @@
-<% content_for :sidebar do %>
-<% end %>
+	<section class="modulo">
+		<div class="contenedor-modulo">
+			<div class="modulo-encabezado">
+				<h1 class="fino pizarra sin-margen rojo">e[ad]<span class='sans pizarra fino'>Escuela de Arquitectura y Diseño</span></h1>
+				<span class='xs bloque izquierda sans negro-fundido en-linea'>Pontificia Universidad Católica de Valparaíso</span>
+			</div>
+		</div>
+		<div class="modulo-cuerpo">
+			<div class="contenedor-modulo">
+				<div class="fila">
+					<div class="tab-content margen-sup">
+						<% form_for :usuario, @usuario, :url => { :action => "create" },:html => {:name => 'form', :class=>'form-horizontal', :id=>'nuevo_usuario'} do |f| %>
+							<div class="tab-pane fade in active" id="registro-1">
+								<form>
+								<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+									<h3 class="fino sans rojo"><i class="icn icn-perfil nav-icn"></i> Registro de nuevo usuario</h3>
+								</div>
+								<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+									<h5 class="fino sans pizarra">Tus datos personales</h5>
+									<hr>
+									<div class="margen-inf-sm">
+										<label for="username">Nombre de usuario</label>
+										<div class="grupo-inputs">
+											<div class="input"><i class="icn icn-md icn-usuario"></i></div>
+											<input type="text" class="control" id="username" name="username_field" placeholder="juanperez"/>		
+										</div>
+										<span class="xs margen-sup-xs">Elije un nombre que puedas recordar con facilidad. Se recomienda no utilizar espacios ni mayúsculas ya que el sistema los distingue y después son fáciles de olvidar.</span>
+									</div>
+									<div class="margen-inf-sm">
+										<label for="names">Nombres</label>
+										<div class="grupo-inputs">		
+											<div class="input"><i class="icn icn-md icn-perfil"></i></div>
+											<input type="text" class="control" id="names" name="nombre" placeholder="Juan José"/>	
+										</div>
+									</div>
+									<div class="margen-inf-sm">
+										<label for="lastnames">Apellidos</label>
+										<div class="grupo-inputs">		
+											<div class="input"><i class="icn icn-md icn-perfil"></i></div>
+											<input type="text" class="control" id="lastnames" name="apellido" placeholder="Pérez López"/>	
+										</div>
+									</div>
+									<div class="margen-inf-sm">
+										<label for="rut">Rut</label>
+										<div class="grupo-inputs">		
+											<div class="input"><i class="icn icn-md icn-acto"></i></div>
+											<input type="text" class="control" id="rut" name="rut" placeholder="12.345.678-9"/>	
+										</div>
+									</div>
+									<div class="margen-inf-sm">
+										<label for="usertype">Relación con la e[ad]</label>
+										<div class="grupo-inputs">
+											<div class="input"><i class="icn icn-md icn-caronabajo"></i></div>
+											<select name="usuario[tipo]" placeholder="selecciona tu carrera">
+												<option></option>
+												<option>Alumno(a)</option>
+												<option>Profesor(a)</option>
+												<option>Ex-alumno(a)</option>
+												<option>Ex-profesor(a)</option>
+												<option>Amigo(a)</option>
+												<option>Otro(a)</option>
+											</select>
+										</div>	
+									</div>
+									<div class="margen-inf-sm">
+										<label for="course">Carrera</label>
+										<div class="grupo-inputs">
+											<div class="input"><i class="icn icn-md icn-caronabajo"></i></div>
+											<select name="usuario[carrera]">
+												<option selected></option>
+												<option>Arquitectura</option>
+												<option>Diseño</option>
+												<option>Diseño Gráfico</option>
+												<option>Diseño Industrial</option>
+												<option>Magister en Arquitectura y Diseño</option>
+											</select>
+										</div>	
+									</div>
+									<div class="margen-inf-sm">
+										<a onclick="verifica_step1()" class="btn btn-accion btn-lg btn-bloque" href="#registro-2" role="tab" data-toggle="tab">Siguiente</a>
+									</div>
+								</div>
+								</form>
+							</div>
+							<div class="tab-pane fade" id="registro-2">
+								<form>
+								<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+									<h5 class="fino sans pizarra">Contacto y seguridad</h5>
+									<hr>
+									<div class="margen-inf-sm">
+										<label for="lastname">Vinculación con redes sociales</label>
+										<div class="bloque">
+											<button type="button" class="btn btn-facebook btn-deshabilitado btn-bloque">Conectar Facebook</button>
+											<button type="button" class="btn btn-google btn-deshabilitado btn-bloque">Conectar con Google</button>
+										</div>
+									</div>
+									<div class="margen-inf-sm">
+										<label for="email">Correo</label>
+										<div class="grupo-inputs">
+											<div class="input"><i class="icn icn-md icn-email"></i></div>
+											<input name="mail" type="email" class="control" id="email" />	
+										</div>	
+									</div>
+									<div class="margen-inf-sm">
+										<label for="password">Contraseña</label>
+										<div class="grupo-inputs">
+											<div class="input"><i class="icn icn-md icn-abierto"></i></div>
+											<input type="password" name="usuario[password]" class="control" id="password" />		
+										</div>	
+									</div>
+									<div class="margen-inf-sm">
+										<label for="password_confirm">Confirmar contraseña</label>
+										<div class="grupo-inputs">
+											<div class="input"><i class="icn icn-md icn-cerrado"></i></div>
+											<input type="password" name="contrasena_rep" class="control" id="password_confirm" />	
+										</div>
+									</div>
+									<div class="margen-inf-sm">
+										<%= recaptcha_tags %>
+									</div>
+									<div class="margen-inf-sm">
+										<div class="checkbox">
+											<label>
+												<input id="tyc" name="tyc" value="no" type="checkbox"> <span class="xs"><a href="http://personas.ead.pucv.cl/others/terminos" target="_blank">Acepto los términos y condiciones e[ad]</a></span>
+											</label>
+										</div>
+										<a onclick="verifica_step2()" class="btn btn-accion btn-lg btn-bloque" href="#registro-3" role="tab" data-toggle="tab">Crear nuevo usuario</a>
+									</div>
+								</div>
+								</form>
+							</div>
+						<% end %>
+						<div class="tab-pane fade" id="registro-3">
+							<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+								<h4 class="fino sans centrado margen-sup-lg margen-inf-lg">Tu cuenta ha sido registrada con éxito. Tu nombre de usuario es <a href="#">juanito_perez</a>, revisa tu email (juanito_prz@hotmail.com) para finalizar el proceso de registro.</h4>
+								<a class="btn btn-accion btn-lg btn-bloque" href="ingresar.html">Volver al login</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script language="JavaScript">
+		function verifica_step1(){
 
-<% content_for :content do %>
-<div class="row">
-	<div class="grid8 offset2">
-		<div style="float:right"><%= image_tag 'estornino.jpg' %></div> 	
-		<% form_for :usuario, @usuario, :url => { :action => "create" },:html => {:name => 'form', :class=>'form-horizontal'} do |f| %>
-
-		<fieldset>
-
-			<h3>Nuevo Usuario</h3> 			
-			<div class="control-group">
-				<label class="control-label" for="input01">Usuario</label>
-				<div class="controls">
-					<%= f.text_field :usuario,:size => 20, :id=>"username_field" %> <span id="check_user" ></span>
-					<p class="help-block">Elije un nombre que puedas recordar con facilidad. Se recomienda no utilizar espacios ni mayúsculas ya que el sistema los distingue y después son fáciles de olvidar.</p>
-				</div>
-			</div>	
-			<div class="control-group">
-				<label class="control-label" for="input01">Tipo</label>
-				<div class="controls">
-					<select name="usuario[tipo]" onchange="carrera(this.value)">
-						<option></option>
-						<option value="a">Alumno(a)</option>
-						<option value="p">Profesor(a)</option>
-						<option value="e">Ex-Alumno(a)</option>
-						<option value="f">Amigo(a)</option>
-						<option value="o">Otro(a)</option>
-					</select>
-				</div>
-			</div>
-
-			<div class="control-group" id="carrera">
-				<label class="control-label" for="input01">Carrera</label>
-				<div class="controls">
-					<select name="usuario[carrera]">
-						<option></option>
-						<option value="Arquitectura">Arquitectura</option>
-						<option value="Diseño Grafico">Diseño Gráfico</option>
-						<option value="Diseño Industrial">Diseño Industrial</option>
-						<option value="Nautico y Maritimo">Naútico y Marítimo</option>
-						<option value="Ciudad y Territorio">Ciudad y Territorio</option>
-						<option value="Formacion y Oficio">Formación y Oficio</option>
-						<option value="Interaccion y Servicios">Interacción y Servicios</option>
-						<option value="Doctorado en AD">Doctorado en A&D</option>												
-					</select>
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="input01">Año Ingreso</label>
-				<div class="controls">
-					<%= f.text_field :anoingreso,:size => 4 %>
-					<span class="required"></span>
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="input01">Nombre</label>
-				<div class="controls">
-					<%= f.text_field :nombre,:size => 20 %> <span class="required">*</span><br />
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="input01">Apellido</label>
-				<div class="controls">
-					<%= f.text_field :apellido,:size => 20 %> <span class="required">*</span><br />
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="input01">Rut</label>
-				<div class="controls">
-					<%= f.text_field :rut,:size => 20 %> <span class="required">*</span><br />
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="input01">Mail</label>
-				<div class="controls">
-					<%= f.text_field :mail, :size=>20, :id=>"email_field" %> <span class="required">*</span> <span id="check_mail"></span>
-					
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="input01">Pagina en Wiki E[ad]</label>
-				<div class="controls">
-					<%= f.text_field :wikipage,:size => 20 %>
-					<p class="help-block">En caso de no especificar una pagina, se creara una pagina con tus datos en la wiki</p>
-				</div>
-			</div>
-			<h3>Contraseña</h3> 
-
-			<div class="control-group">
-				<label class="control-label" for="input01">Contraseña</label>
-				<div class="controls">
-					<input id="usuario_contrasena" name="usuario[password]" size="20" type="password">
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="input01">Verificación</label>
-				<div class="controls">
-					<input id="contrasena_rep" name="contrasena_rep" size="20" type="password" onchange="checkPass()">
-					<p id="passwordNotify" class="help-block"></p>
-				</div>
-			</div>	
-
-			<div class="control-group">
-				<label class="control-label" for="input01"><span class="hide">Captcha</span></label>
-				<div class="controls">
-					<%= recaptcha_tags%>
-				</div>
-			</div>
-			<div class="control-group">
-				<label class="control-label" for="input01"><span class="hide">EULA</span></label>
-				<div class="controls checkbox">
-					<label class="inline">
-						<input type="checkbox" id="tyc" name="tyc" value="no">
-						Acepto los <a href="http://personas.ead.pucv.cl/others/terminos">términos y condiciones</a> e[ad].
-					</label>
-				</div>
-			</div>
-			<script language="JavaScript">
-			function confirma(){
-				if (!document.getElementById('tyc').checked){
-					if (confirm('No ha aceptado los terminos y condiciones de uso, los desea aceptar ahora?'))
-						{ document.form.submit() }
+		}
+		function verifica_step2(){
+			confirma();
+		}
+		function confirma(){
+			if(!document.getElementById('tyc').checked){
+				if(confirm('No ha aceptado los terminos y condiciones de uso, los desea aceptar ahora?')){
+					//document.form.submit();
+					$('#nuevo_usuario').submit();
 				}
-				else { document.form.submit() }
+			}else{
+				//document.form.submit();
+				$('#nuevo_usuario').submit();
 			}
-	</script><br /><br />
-	<div class="controls">
-		<input type=button onclick="confirma()" value="Crear nuevo usuario" class="btn btn-large btn-success">
-	</div>
-</fieldset>
-<% end %>
-</div>
-</div>
-<% end %>
+		}
+	</script>
