@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Personas e[ad] - Recuperar contraseña</title>
+	<link rel="stylesheet" type="text/css" href="../assets/css/personas.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script src="../assets/js/jquery.js"></script>
+	<script src="../assets/js/transition.js"></script>
+	<script src="../assets/js/modal.js"></script>
+</head>
+<body>
+	<%= yield :content %>
+	<footer>
+		<p class="centrado xs"><b>Personas</b> es un sistema de registro único (SSO) desarrollado por el <a href="#">.:TIG:.</a> para todos los servicios de la <a href="#">e[ad] Escuela de Arquitectura y Diseño PUCV</a>. </p>
+	</footer>
+	<script>
+		$(document).ready(function(){
+			$('.btn-abrir-alerta').click(function(){
+				$('.alerta').show()
+			});
+			$('.btn-cerrar-alerta').click(function(){
+				$('.alerta').hide()
+			}) 
+		});
+	</script>
+</body>
+</html>
