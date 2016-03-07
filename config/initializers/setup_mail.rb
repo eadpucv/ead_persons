@@ -7,3 +7,5 @@ ActionMailer::Base.smtp_settings = {
   :user_name => "personas.ead",
   :password => "personas.asdwsx"
 }
+# mailer@ead.cl
+# ead2016+-
